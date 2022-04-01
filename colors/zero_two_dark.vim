@@ -20,7 +20,7 @@ endif
 
 " Not all terminals support italics properly. If yours does, opt-in.
 if !exists("g:zero_two_dark_terminal_italics")
-  let g:zero_two_dark_terminal_italics = 0
+  let g:zero_two_dark_terminal_italics = 1
 endif
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running') && &t_Co != 256

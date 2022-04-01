@@ -20,7 +20,7 @@ endif
 
 " Not all terminals support italics properly. If yours does, opt-in.
 if !exists("g:nakano_yotsuba_terminal_italics")
-  let g:nakano_yotsuba_terminal_italics = 0
+  let g:nakano_yotsuba_terminal_italics = 1
 endif
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running') && &t_Co != 256
