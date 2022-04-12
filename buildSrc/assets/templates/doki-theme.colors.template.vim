@@ -267,24 +267,24 @@ call s:h("cssPseudoClassId", { "fg": s:colors.stringColor})
 
 if has("nvim")
   " Neovim terminal colors {{{
-  "let g:terminal_color_0 =  s:black.gui
-  let g:terminal_color_1 =  s:colors.terminalAnsiMagenta.gui
-  let g:terminal_color_2 =  s:colors.terminalAnsiGreen.gui
-  let g:terminal_color_3 =  s:colors.terminalAnsiYellow.gui
-  let g:terminal_color_4 =  s:colors.terminalAnsiGreen.gui
-  let g:terminal_color_5 =  s:colors.terminalAnsiBlue.gui
-  let g:terminal_color_6 =  s:colors.terminalAnsiCyan.gui
-  "let g:terminal_color_7 =  s:white.gui
- " let g:terminal_color_8 =  s:visual_grey.gui
- " let g:terminal_color_9 =  s:dark_red.gui
-  let g:terminal_color_10 = s:colors.terminalAnsiGreen.gui " No dark version
-  let g:terminal_color_11 = s:colors.terminalAnsiYellow.gui
-  let g:terminal_color_12 = s:colors.terminalAnsiBlue.gui " No dark version
-  let g:terminal_color_13 = s:colors.terminalAnsiBlue.gui " No dark version
-  let g:terminal_color_14 = s:colors.terminalAnsiCyan.gui " No dark version
-  let g:terminal_color_15 = s:colors.comments.gui
-  let g:terminal_color_background = s:colors.textEditorBackground.gui
-  let g:terminal_color_foreground = s:colors.foregroundColorEditor.gui
+ "   "let g:terminal_color_0 =  s:black.gui
+ "   let g:terminal_color_1 =  s:colors.terminalAnsiMagenta.gui
+ "   let g:terminal_color_2 =  s:colors.terminalAnsiGreen.gui
+ "   let g:terminal_color_3 =  s:colors.terminalAnsiYellow.gui
+ "   let g:terminal_color_4 =  s:colors.terminalAnsiGreen.gui
+ "   let g:terminal_color_5 =  s:colors.terminalAnsiBlue.gui
+ "   let g:terminal_color_6 =  s:colors.terminalAnsiCyan.gui
+ "   "let g:terminal_color_7 =  s:white.gui
+ "  " let g:terminal_color_8 =  s:visual_grey.gui
+ "  " let g:terminal_color_9 =  s:dark_red.gui
+ "   let g:terminal_color_10 = s:colors.terminalAnsiGreen.gui " No dark version
+ "   let g:terminal_color_11 = s:colors.terminalAnsiYellow.gui
+ "   let g:terminal_color_12 = s:colors.terminalAnsiBlue.gui " No dark version
+ "   let g:terminal_color_13 = s:colors.terminalAnsiBlue.gui " No dark version
+ "   let g:terminal_color_14 = s:colors.terminalAnsiCyan.gui " No dark version
+ "   let g:terminal_color_15 = s:colors.comments.gui
+ "   let g:terminal_color_background = s:colors.textEditorBackground.gui
+ "   let g:terminal_color_foreground = s:colors.foregroundColorEditor.gui
   " }}}
 
   " Neovim Diagnostics {{{
